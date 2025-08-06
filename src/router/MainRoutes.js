@@ -7,7 +7,7 @@ const MainRoutes = {
   children: [
     {
       name: 'dashboard',
-      path: '/',
+      path: '/dashboard',
       meta: { title: 'Home' },
       component: () => import('../pages/dashboard/Dashboard.vue'),
     },
